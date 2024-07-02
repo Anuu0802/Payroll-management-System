@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payroll Management System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Payroll Management System</h1>
+        <img src="image1 (2).jpeg"alt="image1 (2)" widht="800px" height="800">
+        <form id="payrollForm">
+            <label for="name">Employee Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="hours">Hours Worked:</label>
+            <input type="number" id="hours" name="hours" required>
+
+            <label for="rate">Hourly Rate:</label>
+            <input type="number" id="rate" name="rate" required>
+
+            <button type="submit">Add Employee</button>
+        </form>
+        <img src="image1 (1).jpeg"alt="image1 (1)" widht="700" height="700">  <img src="image1 (3).jpeg"alt="image1 (3)" widht="700" height="700">
+        <h2>Payroll Information</h2>
+        <table id="payrollTable">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Hours Worked</th>
+                    <th>Hourly Rate</th>
+                    <th>Total Pay</th>
+                </tr>
+            </thead>
+            <p> Payroll Management Syatem of Yashwantrao instituteof Science Satara</p>
+            <img src="image1 (4).jpeg"alt="image1 (4)" widht="700" height="500"> 
+            
+            <tbody>
+                <!-- Payroll entries will be added here dynamically -->
+            </tbody>
+        </table>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
